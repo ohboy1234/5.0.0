@@ -45,7 +45,7 @@
 		"documentaries": "defc97b8-aca5-496b-927f-dc03fd8af9c7"
 	},
 	"feedback": {
-        "enabled": true
+        "enabled": false
     },
 	"forYou": {
 		"exitAppWithDoubleBack": true
@@ -137,7 +137,7 @@
 				}
 			}
 		},
-		"tunnelingEnabledDefault": true,
+		"tunnelingEnabledDefault": false,
 		"tunnelingPerDeviceModel": {
 			"DIW3930-MEO": false,
 			"DIW377-MEO": false,
