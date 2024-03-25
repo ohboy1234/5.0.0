@@ -60,7 +60,7 @@
 		"convivaSessionsSamplingDivisor": 1
 	},
 	"standBySettings": {
-		"standByTimeoutMin": 230,
+		"standByTimeoutMin": 60,
 		"screenSaverTimeoutSec": 15
 	},
 	"streamControl": {
@@ -130,8 +130,11 @@
 						"slidingPercentileMaxWeight": 2000
 					},
 					"livePlaybackParameters": {
-						"targetOffsetMs": 5000,
-						"fallbackTargetOffsetMs": 5000
+						"minOffsetMs": 17000,
+						"minPlaybackSpeed": 0.97,
+						"maxPlaybackSpeed": 1.03,
+						"targetOffsetMs": 23000,
+						"fallbackTargetOffsetMs": 23000
 					}
 				}
 			}
