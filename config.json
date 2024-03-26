@@ -1,5 +1,5 @@
 {
-	"progressbar": false,
+	"progressbar": true,
 	"refreshConfigInMins": 360,
 	"home_channels": {
 		"continue_watching": true
@@ -52,7 +52,7 @@
 	},
 	"onBoarding": {
 		"onBoardingVideo": {
-			"enabled": true
+			"enabled": false
 		}
 	},
 	"conviva": {
@@ -60,7 +60,7 @@
 		"convivaSessionsSamplingDivisor": 1
 	},
 	"standBySettings": {
-		"standByTimeoutMin": 60,
+		"standByTimeoutMin": 240,
 		"screenSaverTimeoutSec": 15
 	},
 	"streamControl": {
@@ -68,7 +68,7 @@
 		"ignoreContinueResponse": true
 	},
 	"playback": {
-		"liveIndividualization": false,
+		"liveIndividualization": true,
 		"showThumbnailsOnLimitedDevices": true,
 		"forceReduxDecoderForThumbnails": true,
 		"useSecureDecoderForClearContent": true,
@@ -291,7 +291,7 @@
 		"enabled": true
 	},
 	"sports": {
-		"enabled": true,
+		"enabled": false,
 		"timeline": {
 			"defaultGasEventTimeSubtractOffsetSecs": 7,
 			"defaultLiveEventTimeSubtractOffsetSecs": 7,
