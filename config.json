@@ -48,11 +48,11 @@
         "enabled": false
     },
 	"forYou": {
-		"exitAppWithDoubleBack": true
+		"exitAppWithDoubleBack": false
 	},
 	"onBoarding": {
 		"onBoardingVideo": {
-			"enabled": false
+			"enabled": true
 		}
 	},
 	"conviva": {
