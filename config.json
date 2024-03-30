@@ -137,7 +137,7 @@
 				}
 			}
 		},
-		"tunnelingEnabledDefault": false,
+		"tunnelingEnabledDefault": true,
 		"tunnelingPerDeviceModel": {
 			"DIW3930-MEO": false,
 			"DIW377-MEO": false,
