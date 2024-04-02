@@ -69,7 +69,7 @@
                                                                "fallbackTargetOffsetMs": 17000
                                                }
                                },
-                               "tunnelingEnabledDefault": false,
+                               "tunnelingEnabledDefault": true,
                                "tunnelingPerDeviceModel": {
                                                "DIW3930-MEO": false,
                                                "DIW377-MEO": false,
@@ -79,7 +79,7 @@
                 },
                 "assistant": {
                                "cloud2Cloud": {
-                                               "enabled": true
+                                               "enabled": false
                                }
                 },
                 "privateMode": {
