@@ -123,15 +123,15 @@
 				},
 				"wifi": {
 					"adaptiveTrackSelectionParameters": {
-						"bandwidthFraction": 1
+						"bandwidthFraction": 0.7
 					},
 					"bandWidthMeterParameters": {
 						"initialBitrateEstimate": 12000000,
 						"slidingPercentileMaxWeight": 2000
 					},
 					"livePlaybackParameters": {
-						"targetOffsetMs": 17000,
-						"fallbackTargetOffsetMs": 17000
+						"targetOffsetMs": 16000,
+						"fallbackTargetOffsetMs": 16000
 					}
 				}
 			}
