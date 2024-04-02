@@ -117,20 +117,19 @@
 						"slidingPercentileMaxWeight": 2000
 					},
 					"livePlaybackParameters": {
-						"targetOffsetMs": 21000,
-						"fallbackTargetOffsetMs": 21000
+						"targetOffsetMs": 17000,
+						"fallbackTargetOffsetMs": 17000
 					}
 				},
 				"wifi": {
 					"adaptiveTrackSelectionParameters": {
-						"bandwidthFraction": 1
+						"bandwidthFraction": 0.7
 					},
 					"bandWidthMeterParameters": {
 						"initialBitrateEstimate": 12000000,
 						"slidingPercentileMaxWeight": 2000
 					},
 					"livePlaybackParameters": {
-						"minOffsetMs": 15000,
 						"targetOffsetMs": 17000,
 						"fallbackTargetOffsetMs": 17000
 					}
