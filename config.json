@@ -68,7 +68,7 @@
 		"ignoreContinueResponse": true
 	},
 	"playback": {
-		"liveIndividualization": false,
+		"liveIndividualization": true,
 		"showThumbnailsOnLimitedDevices": true,
 		"forceReduxDecoderForThumbnails": true,
 		"useSecureDecoderForClearContent": true,
@@ -136,7 +136,7 @@
 				}
 			}
 		},
-		"tunnelingEnabledDefault": true,
+		"tunnelingEnabledDefault": false,
 		"tunnelingPerDeviceModel": {
 			"DIW3930-MEO": false,
 			"DIW377-MEO": false,
