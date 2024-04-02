@@ -283,7 +283,7 @@
 	},
 	"assistant": {
 		"cloud2Cloud": {
-			"enabled": false
+			"enabled": true
 		}
 	},
 	"privateMode": {
