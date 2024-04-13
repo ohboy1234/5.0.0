@@ -320,7 +320,7 @@
 		},
 		"tuneByDigits": {
 			"enabled": true,
-			"tuneDelayMilliseconds": 10000
+			"tuneDelayMilliseconds": 1000
 		}
 	},
 	"settings": {
