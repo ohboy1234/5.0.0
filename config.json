@@ -131,15 +131,15 @@
 					},
 					"livePlaybackParameters": {
 						"minOffsetMs": 17000,
-						"minPlaybackSpeed": 1,
-						"maxPlaybackSpeed": 1,
+						"minPlaybackSpeed": 0.94,
+						"maxPlaybackSpeed": 1.04,
 						"targetOffsetMs": 23000,
 						"fallbackTargetOffsetMs": 23000
 					}
 				}
 			}
 		},
-		"tunnelingEnabledDefault": true,
+		"tunnelingEnabledDefault": false,
 		"tunnelingPerDeviceModel": {
 			"DIW3930-MEO": false,
 			"DIW377-MEO": false,
