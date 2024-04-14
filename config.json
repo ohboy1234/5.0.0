@@ -45,7 +45,7 @@
 		"documentaries": "defc97b8-aca5-496b-927f-dc03fd8af9c7"
 	},
 	"feedback": {
-        "enabled": false
+        "enabled": true
     },
 	"forYou": {
 		"exitAppWithDoubleBack": false
@@ -61,7 +61,7 @@
 	},
 	"standBySettings": {
 		"standByTimeoutMin": 240,
-		"screenSaverTimeoutSec": 15
+		"screenSaverTimeoutSec": 10
 	},
 	"streamControl": {
 		"enableStreamControl": true,
@@ -100,8 +100,8 @@
 					},
 					"livePlaybackParameters": {
 						"minOffsetMs": 17000,
-						"minPlaybackSpeed": 0.95,
-						"maxPlaybackSpeed": 1.01,
+						"minPlaybackSpeed": 0.97,
+						"maxPlaybackSpeed": 1.03,
 						"targetOffsetMs": 23000,
 						"fallbackTargetOffsetMs": 23000
 					}
@@ -117,8 +117,8 @@
 						"slidingPercentileMaxWeight": 2000
 					},
 					"livePlaybackParameters": {
-						"targetOffsetMs": 17000,
-						"fallbackTargetOffsetMs": 17000
+						"targetOffsetMs": 21000,
+						"fallbackTargetOffsetMs": 21000
 					}
 				},
 				"wifi": {
@@ -130,16 +130,16 @@
 						"slidingPercentileMaxWeight": 2000
 					},
 					"livePlaybackParameters": {
-						"minOffsetMs": 17000,
-						"minPlaybackSpeed": 0.94,
-						"maxPlaybackSpeed": 1.04,
-						"targetOffsetMs": 23000,
-						"fallbackTargetOffsetMs": 23000
+						"minOffsetMs": 21000,
+						"minPlaybackSpeed": 0.97,
+						"maxPlaybackSpeed": 1.03,
+						"targetOffsetMs": 27000,
+						"fallbackTargetOffsetMs": 27000
 					}
 				}
 			}
 		},
-		"tunnelingEnabledDefault": false,
+		"tunnelingEnabledDefault": true,
 		"tunnelingPerDeviceModel": {
 			"DIW3930-MEO": false,
 			"DIW377-MEO": false,
