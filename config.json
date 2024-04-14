@@ -131,8 +131,6 @@
 					},
 					"livePlaybackParameters": {
 						"minOffsetMs": 17000,
-						"minPlaybackSpeed": 1,
-						"maxPlaybackSpeed": 1,
 						"targetOffsetMs": 23000,
 						"fallbackTargetOffsetMs": 23000
 					}
