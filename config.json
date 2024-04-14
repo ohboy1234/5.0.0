@@ -130,9 +130,10 @@
 						"slidingPercentileMaxWeight": 2000
 					},
 					"livePlaybackParameters": {
-						"minOffsetMs": 17000,
-						"targetOffsetMs": 23000,
-						"fallbackTargetOffsetMs": 23000
+						"minPlaybackSpeed": 1.0,
+						"maxPlaybackSpeed": 1.0,
+						"targetOffsetMs": 17000,
+						"fallbackTargetOffsetMs": 17000
 					}
 				}
 			}
