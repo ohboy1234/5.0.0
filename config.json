@@ -130,16 +130,16 @@
 						"slidingPercentileMaxWeight": 2000
 					},
 					"livePlaybackParameters": {
-						"minOffsetMs": 20000,
+						"minOffsetMs": 16000,
 						"minPlaybackSpeed": 1,
 						"maxPlaybackSpeed": 1,
-						"targetOffsetMs": 27000,
-						"fallbackTargetOffsetMs": 27000
+						"targetOffsetMs": 20000,
+						"fallbackTargetOffsetMs": 20000
 					}
 				}
 			}
 		},
-		"tunnelingEnabledDefault": true,
+		"tunnelingEnabledDefault": false,
 		"tunnelingPerDeviceModel": {
 			"DIW3930-MEO": false,
 			"DIW377-MEO": false,
