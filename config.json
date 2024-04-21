@@ -32,7 +32,7 @@
 		"premiumChannels": "androidtv_gc"
 	},
 	"advertising": {
-		"enabled": true,
+		"enabled": false,
 		"adSpace": "adv_androidtv",
 		"consent": {
 			"utcStartDate": "2023-09-07T00:00:01Z",
@@ -130,9 +130,9 @@
 						"slidingPercentileMaxWeight": 2000
 					},
 					"livePlaybackParameters": {
-						"minOffsetMs": 21000,
-						"minPlaybackSpeed": 0.97,
-						"maxPlaybackSpeed": 1.03,
+						"minOffsetMs": 20000,
+						"minPlaybackSpeed": 1,
+						"maxPlaybackSpeed": 1,
 						"targetOffsetMs": 27000,
 						"fallbackTargetOffsetMs": 27000
 					}
