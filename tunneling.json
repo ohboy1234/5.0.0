@@ -123,7 +123,7 @@
 				},
 				"wifi": {
 					"adaptiveTrackSelectionParameters": {
-						"bandwidthFraction": 0.1
+						"bandwidthFraction": 0.7
 					},
 					"bandWidthMeterParameters": {
 						"initialBitrateEstimate": 12000000,
@@ -139,7 +139,7 @@
 				}
 			}
 		},
-		"tunnelingEnabledDefault": false,
+		"tunnelingEnabledDefault": true,
 		"tunnelingPerDeviceModel": {
 			"DIW3930-MEO": false,
 			"DIW377-MEO": false,
