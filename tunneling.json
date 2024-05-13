@@ -127,14 +127,14 @@
 					},
 					"bandWidthMeterParameters": {
 						"initialBitrateEstimate": 12000000,
-						"slidingPercentileMaxWeight": 40000
+						"slidingPercentileMaxWeight": 2000
 					},
 					"livePlaybackParameters": {
 						"minOffsetMs": 14000,
 						"minPlaybackSpeed": 1,
 						"maxPlaybackSpeed": 1,
-						"targetOffsetMs": 21000,
-						"fallbackTargetOffsetMs": 21000
+						"targetOffsetMs": 16000,
+						"fallbackTargetOffsetMs": 16000
 					}
 				}
 			}
