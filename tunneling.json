@@ -96,12 +96,12 @@
 					},
 					"bandWidthMeterParameters": {
 						"initialBitrateEstimate": 12000000,
-						"slidingPercentileMaxWeight": 2000
+						"slidingPercentileMaxWeight": 20000
 					},
 					"livePlaybackParameters": {
 						"minOffsetMs": 15000,
-						"minPlaybackSpeed": 1f,
-						"maxPlaybackSpeed": 1f,
+						"minPlaybackSpeed": 1,
+						"maxPlaybackSpeed": 1,
 						"targetOffsetMs": 22000,
 						"fallbackTargetOffsetMs": 22000
 					}
@@ -127,12 +127,12 @@
 					},
 					"bandWidthMeterParameters": {
 						"initialBitrateEstimate": 12000000,
-						"slidingPercentileMaxWeight": 2000
+						"slidingPercentileMaxWeight": 20000
 					},
 					"livePlaybackParameters": {
 						"minOffsetMs": 17000,
-						"minPlaybackSpeed": 1f,
-						"maxPlaybackSpeed": 1f,
+						"minPlaybackSpeed": 1,
+						"maxPlaybackSpeed": 1,
 						"targetOffsetMs": 23000,
 						"fallbackTargetOffsetMs": 23000
 					}
