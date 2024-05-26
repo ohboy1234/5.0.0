@@ -1,8 +1,8 @@
 {
-	"progressbar": false,
+	"progressbar": true,
 	"refreshConfigInMins": 360,
 	"home_channels": {
-		"continue_watching": false
+		"continue_watching": true
 	},
 	"bookmarks": {
 		"prePaddingInMins": 2,
