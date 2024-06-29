@@ -117,8 +117,8 @@
 						"slidingPercentileMaxWeight": 2000
 					},
 					"livePlaybackParameters": {
-						"targetOffsetMs": 21000,
-						"fallbackTargetOffsetMs": 21000
+						"targetOffsetMs": 17000,
+						"fallbackTargetOffsetMs": 17000
 					}
 				},
 				"wifi": {
