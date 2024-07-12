@@ -26,6 +26,9 @@
 		"colorKeyBrokerApi": "https://tv-services.online.meo.pt/IPTV/APP/CKB/colorkeybroker.ashx",
 		"advertising": "https://tv-services.online.meo.pt/IPTV/APP/MADS/"
 	},
+	"favourites": {
+		"maxFavouritesCount": 22
+	},	
 	"bannersAdspaces": {
 		"homepage": "androidtv_hp",
 		"recordings": "androidtv_ga",
