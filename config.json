@@ -25,9 +25,6 @@
 		"sports": "https://tv-services.online.meo.pt/IPTV/APP/SportsAPI/api/v2/",
 		"colorKeyBrokerApi": "https://tv-services.online.meo.pt/IPTV/APP/CKB/colorkeybroker.ashx",
 		"advertising": "https://tv-services.online.meo.pt/IPTV/APP/MADS/"
-	},
-	"favourites": {
-		"maxFavouritesCount": 22
 	},	
 	"bannersAdspaces": {
 		"homepage": "androidtv_hp",
