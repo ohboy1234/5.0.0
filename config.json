@@ -52,7 +52,7 @@
 	},
 	"onBoarding": {
 		"onBoardingVideo": {
-			"enabled": false
+			"enabled": true
 		}
 	},
 	"conviva": {
