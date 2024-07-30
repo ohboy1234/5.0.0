@@ -1,9 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>SSID MEO</title>
-<p>Check</p>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Checker</title>
 </head>
 <body>
+    <h1>URL Checker</h1>
+    <p id="url"></p>
+    <script>
+        // Display the current URL
+        document.getElementById('url').innerText = `URL Requested: ${window.location.href}`;
+    </script>
 </body>
 </html>
