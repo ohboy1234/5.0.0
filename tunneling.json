@@ -190,7 +190,7 @@
 				}
 			},
 			"videoPreviewDefaultSettings": {
-				"enabled": true,
+				"enabled": false,
 				"sectionProperties": {
 					"ForYouMyChannels": {
 						"enabled": true,
