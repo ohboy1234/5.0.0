@@ -286,7 +286,7 @@
 	},
 	"assistant": {
 		"cloud2Cloud": {
-			"enabled": true
+			"enabled": false
 		}
 	},
 	"privateMode": {
