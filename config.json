@@ -175,7 +175,7 @@
 					"enabled": false
 				},
 				"once": {
-					"enabled": true,
+					"enabled": false,
 					"sectionProperties": {
 						"TimeBrowsing": {
 							"enabled": false
