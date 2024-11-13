@@ -2,7 +2,7 @@
 	"progressbar": false,
 	"refreshConfigInMins": 360,
 	"home_channels": {
-		"continue_watching": false
+		"continue_watching": true
 	},
 	"bookmarks": {
 		"prePaddingInMins": 2,
@@ -32,7 +32,7 @@
 		"premiumChannels": "androidtv_gc"
 	},
 	"advertising": {
-		"enabled": true,
+		"enabled": false,
 		"adSpace": "adv_androidtv",
 		"consent": {
 			"utcStartDate": "2023-09-07T00:00:01Z",
