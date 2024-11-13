@@ -32,7 +32,7 @@
 		"premiumChannels": "androidtv_gc"
 	},
 	"advertising": {
-		"enabled": false,
+		"enabled": true,
 		"adSpace": "adv_androidtv",
 		"consent": {
 			"utcStartDate": "2023-09-07T00:00:01Z",
