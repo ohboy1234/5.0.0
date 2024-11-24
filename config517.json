@@ -36,7 +36,7 @@
   },
   "advertising": {
     "enabled": true,
-    "showOnCurrentProgram": false,
+    "showOnCurrentProgram": true,
     "adSpace": "adv_androidtv",
     "contentTypeSettings": {
       "live": {
@@ -59,7 +59,7 @@
     "documentaries": "defc97b8-aca5-496b-927f-dc03fd8af9c7"
   },
   "feedback": {
-    "enabled": false
+    "enabled": true
   },
   "forYou": {
     "myChannelsCount": 14,
@@ -156,7 +156,7 @@
       },
       "ntpHost": "ntp-hgw.iptv.telecom.pt"
     },
-    "tunnelingEnabledDefault": true,
+    "tunnelingEnabledDefault": false,
     "tunnelingPerDeviceModel": {
       "DIW3930-MEO": false,
       "DIW377-MEO": false,
@@ -310,7 +310,7 @@
     "enabled": true
   },
   "sports": {
-    "enabled": true,
+    "enabled": false,
     "timeline": {
       "defaultGasEventTimeSubtractOffsetSecs": 7,
       "defaultLiveEventTimeSubtractOffsetSecs": 7,
@@ -342,7 +342,7 @@
       "enabled": true,
       "tuneDelayMilliseconds": 1000
     },
-    "useAggregatedNowPrograms": false
+    "useAggregatedNowPrograms": true
   },
   "settings": {
     "audio": {
