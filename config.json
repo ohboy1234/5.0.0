@@ -1,8 +1,8 @@
 {
-	"progressbar": true,
+	"progressbar": false,
 	"refreshConfigInMins": 360,
 	"home_channels": {
-		"continue_watching": true
+		"continue_watching": false
 	},
 	"bookmarks": {
 		"prePaddingInMins": 2,
@@ -25,7 +25,10 @@
 		"sports": "https://tv-services.online.meo.pt/IPTV/APP/SportsAPI/api/v2/",
 		"colorKeyBrokerApi": "https://tv-services.online.meo.pt/IPTV/APP/CKB/colorkeybroker.ashx",
 		"advertising": "https://tv-services.online.meo.pt/IPTV/APP/MADS/"
-	},	
+	},
+	"favourites": {
+		"maxFavouritesCount": 22
+	},
 	"bannersAdspaces": {
 		"homepage": "androidtv_hp",
 		"recordings": "androidtv_ga",
@@ -33,7 +36,18 @@
 	},
 	"advertising": {
 		"enabled": false,
+		"showOnCurrentProgram": false,
 		"adSpace": "adv_androidtv",
+		"contentTypeSettings": {
+			"live": {
+				"enabled": true,
+				"adMediaLoadTimeoutMs": 5000
+			},
+			"gas": {
+				"enabled": true,
+				"adMediaLoadTimeoutMs": 5000
+			}
+		},
 		"consent": {
 			"utcStartDate": "2023-09-07T00:00:01Z",
 			"utcEndDate": "2023-09-07T23:59:59Z"
@@ -45,9 +59,10 @@
 		"documentaries": "defc97b8-aca5-496b-927f-dc03fd8af9c7"
 	},
 	"feedback": {
-        "enabled": false
-    },
+		"enabled": true
+	},
 	"forYou": {
+		"myChannelsCount": 14,
 		"exitAppWithDoubleBack": false
 	},
 	"onBoarding": {
@@ -57,7 +72,8 @@
 	},
 	"conviva": {
 		"enableConviva": false,
-		"convivaSessionsSamplingDivisor": 1
+		"convivaSessionsSamplingDivisor": 1,
+		"enableConvivaAppInsights": false
 	},
 	"standBySettings": {
 		"standByTimeoutMin": 240,
@@ -86,8 +102,8 @@
 						"slidingPercentileMaxWeight": 2000
 					},
 					"livePlaybackParameters": {
-						"targetOffsetMs": 17000,
-						"fallbackTargetOffsetMs": 17000
+					   "targetOffsetMs": 17000,
+					   "fallbackTargetOffsetMs": 17000
 					}
 				},
 				"wifi": {
@@ -135,9 +151,11 @@
 						"maxPlaybackSpeed": 1,
 						"targetOffsetMs": 17000,
 						"fallbackTargetOffsetMs": 17000
+	  
 					}
 				}
-			}
+			},
+			"ntpHost": "ntp-hgw.iptv.telecom.pt"
 		},
 		"tunnelingEnabledDefault": false,
 		"tunnelingPerDeviceModel": {
@@ -175,7 +193,7 @@
 					"enabled": false
 				},
 				"once": {
-					"enabled": false,
+					"enabled": true,
 					"sectionProperties": {
 						"TimeBrowsing": {
 							"enabled": false
@@ -245,48 +263,48 @@
 			}
 		},
 		"multicam": {
-		   "pipHintFadeOutTimerMs": 7000,
-		   "multiCamPerDeviceModel": {
-						   "DIW3930-MEO": {
-										   "enabled": true,
-										   "multicamMaxBitrate": 2500000,
-										   "usePipSourceUri": true,
-										   "pipMaxBitrate": 2000000,
-										   "offsetAdjustmentMs": -2000
-						   },
-						   "DIW377-MEO": {
-										   "enabled": true,
-										   "pipMaxBitrate": 2500000,
-										   "multicamMaxBitrate": -1
-						   },
-						   "DV8555-MEO": {
-										   "enabled": true,
-										   "pipMaxBitrate": 2500000,
-										   "multicamMaxBitrate": -1
-						   },
-						   "DV8985-MEO": {
-										   "enabled": true,
-										   "multicamMaxBitrate": 2500000,
-										   "usePipSourceUri": true,
-										   "pipMaxBitrate": 2000000,
-										   "offsetAdjustmentMs": -2000
-						   },
-						   "soul": {
-										   "enabled": false
-						   }
-		   },
-		   "multiCamDefaultSettings": {
-						   "enabled": true,
-						   "multicamMaxBitrate": 2500000,
-						   "usePipSourceUri": true,
-						   "pipMaxBitrate": 2000000,
-						   "offsetAdjustmentMs": -2000
-		   }
+			"pipHintFadeOutTimerMs": 7000,
+			"multiCamPerDeviceModel": {
+				"DIW3930-MEO": {
+					"enabled": true,
+					"multicamMaxBitrate": 2500000,
+					"usePipSourceUri": true,
+					"pipMaxBitrate": 2000000,
+					"offsetAdjustmentMs": -2000
+				},
+				"DIW377-MEO": {
+					"enabled": true,
+					"pipMaxBitrate": 2500000,
+					"multicamMaxBitrate": -1
+				},
+				"DV8555-MEO": {
+					"enabled": true,
+					"pipMaxBitrate": 2500000,
+					"multicamMaxBitrate": -1
+				},
+				"DV8985-MEO": {
+					"enabled": true,
+					"multicamMaxBitrate": 2500000,
+					"usePipSourceUri": true,
+					"pipMaxBitrate": 2000000,
+					"offsetAdjustmentMs": -2000
+				},
+				"soul": {
+					"enabled": false
+				}
+			},
+			"multiCamDefaultSettings": {
+				"enabled": true,
+				"multicamMaxBitrate": 2500000,
+				"usePipSourceUri": true,
+				"pipMaxBitrate": 2000000,
+				"offsetAdjustmentMs": -2000
+			}
 		}
 	},
 	"assistant": {
 		"cloud2Cloud": {
-			"enabled": false
+			"enabled": true
 		}
 	},
 	"privateMode": {
@@ -324,7 +342,9 @@
 		"tuneByDigits": {
 			"enabled": true,
 			"tuneDelayMilliseconds": 1000
-		}
+   
+		},
+		"useAggregatedNowPrograms": false
 	},
 	"settings": {
 		"audio": {
@@ -376,6 +396,9 @@
 	"recordings": {
 		"nowEndDateSubtractInMins": 20,
 		"sharpStart": {
+			"enabled": true
+		},
+		"bingeWatching": {
 			"enabled": true
 		},
 		"keepIt": {
