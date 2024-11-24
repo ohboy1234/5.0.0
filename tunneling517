@@ -1,1 +1,420 @@
-
+{
+  "progressbar": false,
+  "refreshConfigInMins": 360,
+  "home_channels": {
+    "continue_watching": false
+  },
+  "bookmarks": {
+    "prePaddingInMins": 2,
+    "posPaddingInMins": 15,
+    "endingOffsetInSecs": 15
+  },
+  "endpoints": {
+    "cdnImagesUmt": "https://cdn-er-images.online.meo.pt/",
+    "proxycache": "https://cdn-er-images.online.meo.pt/",
+    "ott": "http://ott.online.meo.pt/",
+    "ottSearch": "http://ott.online.meo.pt/search/v1/meocatalog/",
+    "ottUser": "http://ott.online.meo.pt/user/v9/",
+    "ottCatalog": "http://ott.online.meo.pt/catalog/v9/",
+    "ottProgram": "http://ott.online.meo.pt/program/v9/",
+    "ottEvent": "http://ott.online.meo.pt/event/v9/",
+    "ottMedia": "http://ott.online.meo.pt/media/v9/",
+    "sdb": "https://tv-services.online.meo.pt/",
+    "madServ": "https://tv-services.online.meo.pt/IPTV/MadServ/",
+    "premiumChannelsApi": "https://proxygc.online.meo.pt/api/",
+    "sports": "https://tv-services.online.meo.pt/IPTV/APP/SportsAPI/api/v2/",
+    "colorKeyBrokerApi": "https://tv-services.online.meo.pt/IPTV/APP/CKB/colorkeybroker.ashx",
+    "advertising": "https://tv-services.online.meo.pt/IPTV/APP/MADS/"
+  },
+  "favourites": {
+    "maxFavouritesCount": 22
+  },
+  "bannersAdspaces": {
+    "homepage": "androidtv_hp",
+    "recordings": "androidtv_ga",
+    "premiumChannels": "androidtv_gc"
+  },
+  "advertising": {
+    "enabled": false,
+    "showOnCurrentProgram": true,
+    "adSpace": "adv_androidtv",
+    "contentTypeSettings": {
+      "live": {
+        "enabled": true,
+        "adMediaLoadTimeoutMs": 5000
+      },
+      "gas": {
+        "enabled": true,
+        "adMediaLoadTimeoutMs": 5000
+      }
+    },
+    "consent": {
+      "utcStartDate": "2023-09-07T00:00:01Z",
+      "utcEndDate": "2023-09-07T23:59:59Z"
+    }
+  },
+  "featuredThematicsCategories": {
+    "movies": "60e1b11e-3f71-40f6-b729-d80e4e487130",
+    "tvShows": "63ae1640-3ea1-4edb-b238-0efedbc08dcc",
+    "documentaries": "defc97b8-aca5-496b-927f-dc03fd8af9c7"
+  },
+  "feedback": {
+    "enabled": true
+  },
+  "forYou": {
+    "myChannelsCount": 14,
+    "exitAppWithDoubleBack": false
+  },
+  "onBoarding": {
+    "onBoardingVideo": {
+      "enabled": false
+    }
+  },
+  "conviva": {
+    "enableConviva": false,
+    "convivaSessionsSamplingDivisor": 1,
+    "enableConvivaAppInsights": false
+  },
+  "standBySettings": {
+    "standByTimeoutMin": 240,
+    "screenSaverTimeoutSec": 10
+  },
+  "streamControl": {
+    "enableStreamControl": true,
+    "ignoreContinueResponse": true
+  },
+  "playback": {
+    "liveIndividualization": false,
+    "showThumbnailsOnLimitedDevices": true,
+    "forceReduxDecoderForThumbnails": true,
+    "useSecureDecoderForClearContent": true,
+    "disableVideoRendererWhenHidden": false,
+    "enableSagemAudioCodecReleaseWorkaround": false,
+    "disableTunnelingAfterError": false,
+    "exoPlayerDeviceConnectionParameters": {
+      "operator": {
+        "ethernet": {
+          "adaptiveTrackSelectionParameters": {
+            "bandwidthFraction": 0.7
+          },
+          "bandWidthMeterParameters": {
+            "initialBitrateEstimate": 12000000,
+            "slidingPercentileMaxWeight": 2000
+          },
+          "livePlaybackParameters": {
+            "targetOffsetMs": 17000,
+            "fallbackTargetOffsetMs": 17000
+          }
+        },
+        "wifi": {
+          "adaptiveTrackSelectionParameters": {
+            "bandwidthFraction": 0.7
+          },
+          "bandWidthMeterParameters": {
+            "initialBitrateEstimate": 12000000,
+            "slidingPercentileMaxWeight": 2000
+          },
+          "livePlaybackParameters": {
+            "minOffsetMs": 11000,
+            "minPlaybackSpeed": 1,
+            "maxPlaybackSpeed": 1,
+            "targetOffsetMs": 18000,
+            "fallbackTargetOffsetMs": 17000
+          }
+        }
+      },
+      "thirdParty": {
+        "ethernet": {
+          "adaptiveTrackSelectionParameters": {
+            "bandwidthFraction": 0.7
+          },
+          "bandWidthMeterParameters": {
+            "initialBitrateEstimate": 12000000,
+            "slidingPercentileMaxWeight": 2000
+          },
+          "livePlaybackParameters": {
+            "targetOffsetMs": 17000,
+            "fallbackTargetOffsetMs": 17000
+          }
+        },
+        "wifi": {
+          "adaptiveTrackSelectionParameters": {
+            "bandwidthFraction": 0.7
+          },
+          "bandWidthMeterParameters": {
+            "initialBitrateEstimate": 12000000,
+            "slidingPercentileMaxWeight": 2000
+          },
+          "livePlaybackParameters": {
+            "minOffsetMs": 11000,
+            "minPlaybackSpeed": 1,
+            "maxPlaybackSpeed": 1,
+            "targetOffsetMs": 17000,
+            "fallbackTargetOffsetMs": 17000
+          }
+        }
+      },
+      "ntpHost": "ntp-hgw.iptv.telecom.pt"
+    },
+    "tunnelingEnabledDefault": true,
+    "tunnelingPerDeviceModel": {
+      "DIW3930-MEO": false,
+      "DIW377-MEO": false,
+      "DV8555-MEO": false,
+      "DV8985-MEO": false
+    },
+    "hdmiPlugStateAwarenessEnabled": true,
+    "hdmiPlugStateAwarenessDebounceTimeMs": 5000,
+    "drm": {
+      "widevine": {
+        "persistentLicenseChannels": [
+          "ARTE_F_HD",
+          "SPORTTV1_HD",
+          "SPORTTV2_HD",
+          "SPORTTV3_HD",
+          "SPORTTVLive_HD",
+          "SPORTTV_GOLFE_HD",
+          "SPORTTV6_HD",
+          "NBA_TV_HD",
+          "Benfica_TV_1_HD",
+          "Eleven_Sports_1_HD",
+          "Eleven_Sports_2_HD"
+        ],
+        "defaultEndpoints": {
+          "licenseServerUrl": "https://prdneumhms01.keydelivery.mediaservices.windows.net/Widevine/?KID=",
+          "tokenDeliveryUrl": "https://amsdrmtoken.online.meo.pt/sts/"
+        }
+      }
+    },
+    "videoPreview": {
+      "videoPreviewPerDeviceModel": {
+        "soul": {
+          "enabled": false
+        },
+        "once": {
+          "enabled": true,
+          "sectionProperties": {
+            "TimeBrowsing": {
+              "enabled": false
+            },
+            "ZappingChannels": {
+              "enabled": false
+            },
+            "ZappingRecentChannels": {
+              "enabled": false
+            }
+          }
+        }
+      },
+      "videoPreviewDefaultSettings": {
+        "enabled": true,
+        "sectionProperties": {
+          "ForYouMyChannels": {
+            "enabled": true,
+            "usePipSourceUri": true,
+            "delayPlayInMillis": 700,
+            "enableConviva": true,
+            "showCurrentChannelPreview": false
+          },
+          "ZappingChannels": {
+            "enabled": true,
+            "usePipSourceUri": true,
+            "delayPlayInMillis": 700,
+            "enableConviva": true,
+            "showCurrentChannelPreview": true
+          },
+          "ZappingRecentChannels": {
+            "enabled": true,
+            "usePipSourceUri": true,
+            "delayPlayInMillis": 700,
+            "enableConviva": true,
+            "showCurrentChannelPreview": true
+          },
+          "TimeBrowsing": {
+            "enabled": true,
+            "usePipSourceUri": true,
+            "delayPlayInMillis": 700,
+            "enableConviva": true,
+            "showCurrentChannelPreview": true
+          },
+          "ChannelGrid": {
+            "enabled": true,
+            "usePipSourceUri": true,
+            "delayPlayInMillis": 700,
+            "enableConviva": true,
+            "showCurrentChannelPreview": true
+          },
+          "FloatingChannels": {
+            "enabled": true,
+            "usePipSourceUri": true,
+            "delayPlayInMillis": 700,
+            "enableConviva": true,
+            "showCurrentChannelPreview": true
+          },
+          "ChannelProgramming": {
+            "enabled": true,
+            "usePipSourceUri": true,
+            "delayPlayInMillis": 700,
+            "enableConviva": true,
+            "showCurrentChannelPreview": true
+          }
+        }
+      }
+    },
+    "multicam": {
+      "pipHintFadeOutTimerMs": 7000,
+      "multiCamPerDeviceModel": {
+        "DIW3930-MEO": {
+          "enabled": true,
+          "multicamMaxBitrate": 2500000,
+          "usePipSourceUri": true,
+          "pipMaxBitrate": 2000000,
+          "offsetAdjustmentMs": -2000
+        },
+        "DIW377-MEO": {
+          "enabled": true,
+          "pipMaxBitrate": 2500000,
+          "multicamMaxBitrate": -1
+        },
+        "DV8555-MEO": {
+          "enabled": true,
+          "pipMaxBitrate": 2500000,
+          "multicamMaxBitrate": -1
+        },
+        "DV8985-MEO": {
+          "enabled": true,
+          "multicamMaxBitrate": 2500000,
+          "usePipSourceUri": true,
+          "pipMaxBitrate": 2000000,
+          "offsetAdjustmentMs": -2000
+        },
+        "soul": {
+          "enabled": false
+        }
+      },
+      "multiCamDefaultSettings": {
+        "enabled": true,
+        "multicamMaxBitrate": 2500000,
+        "usePipSourceUri": true,
+        "pipMaxBitrate": 2000000,
+        "offsetAdjustmentMs": -2000
+      }
+    }
+  },
+  "assistant": {
+    "cloud2Cloud": {
+      "enabled": true
+    }
+  },
+  "privateMode": {
+    "enabled": true
+  },
+  "sports": {
+    "enabled": false,
+    "timeline": {
+      "defaultGasEventTimeSubtractOffsetSecs": 7,
+      "defaultLiveEventTimeSubtractOffsetSecs": 7,
+      "slideshow": {
+        "enabled": true
+      }
+    }
+  },
+  "serviceParameters": {
+    "availableOnChannelsTV": "ATV",
+    "availableOnChannelsVod": "ATV",
+    "availableOnChannelsSVod": "ATV"
+  },
+  "byPassSettings": {
+    "checkUrl": "http://cdn-resources.online.meo.pt/EM/ATV/app_hcheck.json",
+    "liveChannelListUrl": "http://cdn-resources.online.meo.pt/EM/ATV/LIVE_bypassmappings.json",
+    "recordingsChannelListUrl": "http://cdn-resources.online.meo.pt/EM/ATV/GA_bypassmappings.json"
+  },
+  "sVods": {
+    "individualizationPlayWarnings": false
+  },
+  "zapping": {
+    "enableEditThematics": true,
+    "enableEditChannels": true,
+    "accidentalZapping": {
+      "savedStateValiditySecs": 30
+    },
+    "tuneByDigits": {
+      "enabled": true,
+      "tuneDelayMilliseconds": 1000
+    },
+    "useAggregatedNowPrograms": true
+  },
+  "settings": {
+    "audio": {
+      "languages": [
+        {
+          "audioDescriptionLanguageCode": "pt",
+          "hasAudioDescription": true,
+          "languageCode": "th"
+        },
+        {
+          "languageCode": "en"
+        },
+        {
+          "languageCode": "es"
+        },
+        {
+          "languageCode": "fr"
+        },
+        {
+          "languageCode": "de"
+        },
+        {
+          "languageCode": "ta",
+          "labelKey": "Audio_Alternativo"
+        }
+      ],
+      "showDisableOption": false,
+      "visible": true
+    },
+    "subtitles": {
+      "languages": [
+        {
+          "languageCode": "pt"
+        },
+        {
+          "languageCode": "en"
+        },
+        {
+          "languageCode": "fr"
+        },
+        {
+          "languageCode": "de"
+        }
+      ],
+      "showDisableOption": true,
+      "visible": false
+    }
+  },
+  "recordings": {
+    "nowEndDateSubtractInMins": 20,
+    "sharpStart": {
+      "enabled": true
+    },
+    "bingeWatching": {
+      "enabled": true
+    },
+    "keepIt": {
+      "enabled": true,
+      "movieThematics": [
+        "MSEPGC_MV"
+      ],
+      "seasonThematics": [
+        "MSEPGC_Series",
+        "MSEPGC_Ed",
+        "MSEPGC_LS",
+        "MSEPGC_Special"
+      ],
+      "seasonSpecialThematics": [
+        "MSEPGC_Special_Soap",
+        "MSEPGC_Series"
+      ],
+      "warningPercentage": 0.7
+    }
+  }
+}
