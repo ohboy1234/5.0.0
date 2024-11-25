@@ -1,5 +1,5 @@
 {
-  "progressbar": true,
+  "progressbar": false,
   "refreshConfigInMins": 360,
   "home_channels": {
     "continue_watching": false
