@@ -27,10 +27,10 @@
     "advertising": "https://tv-services.online.meo.pt/IPTV/APP/MADS/"
   },
   "favourites": {
-    "maxFavouritesCount": 16
+    "maxFavouritesCount": 22
   },
   "bannersAdspaces": {
-    "homepage": "",
+    "homepage": "androidtv_hp",
     "recordings": "androidtv_ga",
     "premiumChannels": "androidtv_gc"
   },
