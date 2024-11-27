@@ -149,8 +149,8 @@
             "minOffsetMs": 11000,
             "minPlaybackSpeed": 1,
             "maxPlaybackSpeed": 1,
-            "targetOffsetMs": 16000,
-            "fallbackTargetOffsetMs": 17000
+            "targetOffsetMs": 15000,
+            "fallbackTargetOffsetMs": 15000
           }
         }
       },
