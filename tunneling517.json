@@ -156,7 +156,7 @@
       },
       "ntpHost": "ntp-hgw.iptv.telecom.pt"
     },
-    "tunnelingEnabledDefault": true,
+    "tunnelingEnabledDefault": false,
     "tunnelingPerDeviceModel": {
       "DIW3930-MEO": false,
       "DIW377-MEO": false,
