@@ -62,7 +62,7 @@
     "enabled": true
   },
   "forYou": {
-    "myChannelsCount": 14,
+    "myChannelsCount": 8,
     "exitAppWithDoubleBack": false
   },
   "onBoarding": {
@@ -156,7 +156,7 @@
       },
       "ntpHost": "ntp-hgw.iptv.telecom.pt"
     },
-    "tunnelingEnabledDefault": false,
+    "tunnelingEnabledDefault": true,
     "tunnelingPerDeviceModel": {
       "DIW3930-MEO": false,
       "DIW377-MEO": false,
