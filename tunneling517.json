@@ -35,8 +35,8 @@
     "premiumChannels": "androidtv_gc"
   },
   "advertising": {
-    "enabled": true,
-    "showOnCurrentProgram": true,
+    "enabled": false,
+    "showOnCurrentProgram": false,
     "adSpace": "adv_androidtv",
     "contentTypeSettings": {
       "live": {
@@ -59,7 +59,7 @@
     "documentaries": "defc97b8-aca5-496b-927f-dc03fd8af9c7"
   },
   "feedback": {
-    "enabled": true
+    "enabled": false
   },
   "forYou": {
     "myChannelsCount": 8,
