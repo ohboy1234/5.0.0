@@ -35,7 +35,7 @@
     "premiumChannels": "androidtv_gc"
   },
   "advertising": {
-    "enabled": false,
+    "enabled": true,
     "showOnCurrentProgram": true,
     "adSpace": "adv_androidtv",
     "contentTypeSettings": {
