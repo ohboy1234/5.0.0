@@ -342,7 +342,7 @@
       "enabled": true,
       "tuneDelayMilliseconds": 1000
     },
-    "useAggregatedNowPrograms": true
+    "useAggregatedNowPrograms": false
   },
   "settings": {
     "audio": {
