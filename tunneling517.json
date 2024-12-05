@@ -310,7 +310,7 @@
     "enabled": true
   },
   "sports": {
-    "enabled": false,
+    "enabled": true,
     "timeline": {
       "defaultGasEventTimeSubtractOffsetSecs": 7,
       "defaultLiveEventTimeSubtractOffsetSecs": 7,
