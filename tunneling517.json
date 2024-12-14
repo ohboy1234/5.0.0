@@ -40,11 +40,11 @@
     "adSpace": "adv_androidtv",
     "contentTypeSettings": {
       "live": {
-        "enabled": true,
+        "enabled": false,
         "adMediaLoadTimeoutMs": 5000
       },
       "gas": {
-        "enabled": true,
+        "enabled": false,
         "adMediaLoadTimeoutMs": 5000
       }
     },
