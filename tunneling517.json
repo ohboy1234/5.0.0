@@ -84,7 +84,7 @@
     "ignoreContinueResponse": true
   },
   "playback": {
-    "liveIndividualization": false,
+    "liveIndividualization": true,
     "showThumbnailsOnLimitedDevices": true,
     "forceReduxDecoderForThumbnails": true,
     "useSecureDecoderForClearContent": true,
