@@ -207,7 +207,7 @@
         }
       },
       "videoPreviewDefaultSettings": {
-        "enabled": true,
+        "enabled": false,
         "sectionProperties": {
           "ForYouMyChannels": {
             "enabled": true,
@@ -310,7 +310,7 @@
     "enabled": true
   },
   "sports": {
-    "enabled": true,
+    "enabled": false,
     "timeline": {
       "defaultGasEventTimeSubtractOffsetSecs": 7,
       "defaultLiveEventTimeSubtractOffsetSecs": 7,
