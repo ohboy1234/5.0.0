@@ -87,7 +87,7 @@
     "liveIndividualization": true,
     "showThumbnailsOnLimitedDevices": true,
     "forceReduxDecoderForThumbnails": true,
-    "useSecureDecoderForClearContent": true,
+    "useSecureDecoderForClearContent": false,
     "disableVideoRendererWhenHidden": false,
     "enableSagemAudioCodecReleaseWorkaround": false,
     "disableTunnelingAfterError": false,
