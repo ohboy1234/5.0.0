@@ -84,10 +84,10 @@
     "ignoreContinueResponse": true
   },
   "playback": {
-    "liveIndividualization": true,
+    "liveIndividualization": false,
     "showThumbnailsOnLimitedDevices": true,
     "forceReduxDecoderForThumbnails": true,
-    "useSecureDecoderForClearContent": false,
+    "useSecureDecoderForClearContent": true,
     "disableVideoRendererWhenHidden": false,
     "enableSagemAudioCodecReleaseWorkaround": false,
     "disableTunnelingAfterError": false,
